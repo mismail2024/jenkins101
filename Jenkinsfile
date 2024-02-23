@@ -10,7 +10,7 @@ pipeline {
                 echo "Building Stage.."
                 sh '''
                 pwd
-                ls -al
+                ls -al .git
                 cat Jenkinsfile
                 cd myapp
                 pwd
