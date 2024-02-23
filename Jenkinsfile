@@ -11,6 +11,7 @@ pipeline {
                 sh '''
                 pwd
                 ls -al
+                cat Jenkinsfile
                 cd myapp
                 pwd
                 pip install -r requirements.txt
