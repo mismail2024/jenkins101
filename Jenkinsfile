@@ -31,7 +31,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                echo 'Deliver Stage....'
+                echo 'Delivering Stage....'
                 sh '''
                 cd myapp
                 pwd
